@@ -151,9 +151,9 @@ h1 small {
 	width:960px;
 }
 .content .mainbar {
-	margin:0;
+	margin:130px;
 	padding:0;
-	float:right;
+	float:inherit;
 	width:690px;
 }
 .content .mainbar h2 {
@@ -246,7 +246,7 @@ p.infopost span.date {
 	color:#fff;
 }
 .article a.com {
-	float:right;
+	float:none;
 	margin:-6px -12px 0 0;
 	padding:4px 12px;
 	font-size:15px;
