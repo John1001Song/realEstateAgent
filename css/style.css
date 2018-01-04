@@ -151,9 +151,9 @@ h1 small {
 	width:960px;
 }
 .content .mainbar {
-	margin:130px;
+	margin:0;
 	padding:0;
-	float:inherit;
+	float:right;
 	width:690px;
 }
 .content .mainbar h2 {
