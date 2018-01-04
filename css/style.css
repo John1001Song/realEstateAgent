@@ -246,7 +246,7 @@ p.infopost span.date {
 	color:#fff;
 }
 .article a.com {
-	float:right;
+	float:none;
 	margin:-6px -12px 0 0;
 	padding:4px 12px;
 	font-size:15px;
