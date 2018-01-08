@@ -3,7 +3,7 @@
     <div class="content_resize">
       <div class="mainbar">
         <div class="article">
-          <h2><span>Excellent Solution</span> For Your Business</h2>
+          <h2><span>New and Hot</span> Condos 火热楼盘</h2>
           <p class="infopost">Posted on <span class="date">11 sep 2018</span> by <a href="#">Admin</a> &nbsp;&nbsp;|&nbsp;&nbsp; Filed under <a href="#">templates</a>, <a href="#">internet</a> <a href="#" class="com">Comments <span>11</span></a></p>
           <div class="clr"></div>
           <div class="img"><img src="images/img1.jpg" width="650" height="196" alt="" class="fl" /></div>
