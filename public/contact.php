@@ -7,34 +7,44 @@
           <div class="clr"></div>
           <p>联系我们</p>
         </div>
-        <div class="article">
+        <div class="article" id="contactApp">
           <h2><span>Send us</span> mail</h2>
           <div class="clr"></div>
-          <form action="#" method="post" id="sendemail">
-            <ol>
-              <li>
-                <label for="name">姓名</label>
-                <input id="name" name="name" class="text" />
-              </li>
-              <li>
-                <label for="email">邮箱</label>
-                <input id="email" name="email" class="text" />
-              </li>
-              <li>
-                <label for="cellphone">手机号码</label>
-                <input id="cellphone" name="cellphone" class="text" />
-              </li>
-              <li>
-                <label for="message">您的留言</label>
-                <textarea id="message" name="message" rows="8" cols="50"></textarea>
-              </li>
-              <li>
-                <input type="image" name="imageField" id="imageField" src="../images/submit.gif" class="send" />
-                <div class="clr"></div>
-              </li>
-            </ol>
-          </form>
+            <el-form ref="form" :model="form" label-width="120px">
+                <el-form-item label="姓名">
+                    <el-input v-model="form.name"></el-input>
+                </el-form-item>
+                <el-form-item label="邮箱">
+                    <el-input v-model="form.email"></el-input>
+                </el-form-item>
+                <el-form-item label="手机号码">
+                    <el-input v-model="form.cellphone"></el-input>
+                </el-form-item>
+                <el-form-item label="您的留言">
+                    <el-input type="textarea" v-model="form.message"></el-input>
+                </el-form-item>
+                <el-form-item>
+                    <el-button type="primary">Send</el-button>
+                </el-form-item>
+            </el-form>
+
         </div>
     </div>
+        <?php include 'shared/sidebar.php';?>
+        <div class="clr"></div>
   </div>
-      <?php include 'shared/footer.php';?>
+  </div>
+<?php include 'shared/footer.php';?>
+<script>
+    var contactApp = new Vue({
+        el: '#contactApp',
+        data: {
+            form: {
+                name: '',
+                email:'',
+                cellphone:'',
+                message:''
+            }
+        }
+    })
+</script>
