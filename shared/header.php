@@ -29,11 +29,11 @@
             <div class="clr"></div>
             <div class="menu_nav">
                 <ul>
-                    <li><a href="index.php"><span>主页</span></a></li>
-                    <li><a href="support.php"><span>Support</span></a></li>
-                    <li class="active"><a href="about.php"><span>关于我们</span></a></li>
-                    <li><a href="blog.php"><span>Blog</span></a></li>
-                    <li><a href="contact.php"><span>联系我们</span></a></li>
+                    <li><a href="/"><span>主页</span></a></li>
+                    <li><a href="/support"><span>Support</span></a></li>
+                    <li class="active"><a href="/about"><span>关于我们</span></a></li>
+                    <li><a href="/blog"><span>Blog</span></a></li>
+                    <li><a href="/contact"><span>联系我们</span></a></li>
                 </ul>
             </div>
             <div class="clr"></div>
