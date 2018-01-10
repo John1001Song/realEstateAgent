@@ -8,9 +8,9 @@
           <p>联系我们</p>
         </div>
         <div class="article">
-          <h2><span>Send us</span> mail</h2>
+          <h2><span>Send us</span> email</h2>
           <div class="clr"></div>
-          <form action="#" method="post" id="sendemail">
+          <form action="process/send-mail-proc.php" method="post" id="sendemail">
             <ol>
               <li>
                 <label for="name">姓名</label>
@@ -29,12 +29,14 @@
                 <textarea id="message" name="message" rows="8" cols="50"></textarea>
               </li>
               <li>
-                <input type="image" name="imageField" id="imageField" src="images/submit.gif" class="send" />
+                <input type="submit" name="imageField" id="imageField" src="images/submit.gif" class="send" />
                 <div class="clr"></div>
               </li>
             </ol>
           </form>
         </div>
     </div>
+        <?php include 'shared/sidebar.php';?>
   </div>
-      <?php include 'shared/footer.php';?>
+  </div>
+<?php include 'shared/footer.php';?>
