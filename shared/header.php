@@ -30,9 +30,14 @@
             <div class="menu_nav">
                 <ul>
                     <li><a href="index.php"><span>主页</span></a></li>
-                    <li><a href="support.php"><span>Support</span></a></li>
-                    <li class="active"><a href="about.php"><span>关于我们</span></a></li>
-                    <li><a href="blog.php"><span>Blog</span></a></li>
+                    <li><a href="support.php"><span>优质楼盘</span></a></li>
+                    <li><a><span>公寓</span></a></li>
+                    <li><a><span>独栋联排</span></a></li>
+                    <li><a><span>豪宅</span></a></li>
+                    <li class="active"><a href="about.php"><span>已售楼盘</span></a></li>
+                    <li><a href="blog.php"><span>客户反馈</span></a></li>
+                    <li><a href=""><span>市场走向</span></a></li>
+                    <li><a><span>买卖小助手</span></a></li>
                     <li><a href="contact.php"><span>联系我们</span></a></li>
                 </ul>
             </div>
