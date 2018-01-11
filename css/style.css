@@ -112,7 +112,7 @@ h1 small {
 	margin:0 auto 16px;
 	padding:0;
 	height:51px;
-	background:#88cbf7;
+	background:#FF0000;
 }
 .menu_nav ul {
 	list-style:none;
@@ -231,7 +231,10 @@ p.infopost {
 	margin:0 0 8px;
 	padding:6px 12px;
 	color:#fff;
-	background:#78bbe6;
+	background:#FF0000;
+    font-size: 200%;
+    position: relative;
+    text-align:center;
 }
 p.infopost a {
 	padding:0 2px;
