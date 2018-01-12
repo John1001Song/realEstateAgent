@@ -347,14 +347,14 @@ p.infopost span.date {
 }
 .fbg .c1 {
 	padding:0 16px 0 0;
-	width:560px;
+	width:300px;
 }
 .fbg .c2 {
-	padding:0 36px 0 16px;
+	padding:0 36px 0 0px;
 	width:280px;
 }
 .fbg .c3 {
-	padding:0 0 0 16px;
+	padding:40px 36px 50px 0px;
 	width:274px;
 }
 .fbg .fbg_ul {
