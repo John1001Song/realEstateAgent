@@ -7,25 +7,25 @@ if(isset($_SERVER['HTTP_X_REQUESTED_WITH']) && !empty($_SERVER['HTTP_X_REQUESTED
 // Routes
 switch ($request_uri[0]) {
     case '/':
-        require getcwd().'/public/home.php';
+        require 'public/home.php';
         break;
     case '/blog':
-        require getcwd().'/public/blog.php';
+        require 'public/blog.php';
         break;
     case '/contact':
-        require getcwd().'/public/contact.php';
+        require 'public/contact.php';
         break;
     case '/about':
-        require getcwd().'/public/about.php';
+        require 'public/about.php';
         break;
     case '/support':
-        require getcwd().'/public/support.php';
+        require 'public/support.php';
         break;
     case '/send-email':
-        require getcwd().'/process/send-email-proc.php';
+        require 'process/send-email-proc.php';
         break;
     default:
         header('HTTP/1.0 404 Not Found');
-        require '/public/error.php';
+        require 'public/error.php';
         break;
 }
