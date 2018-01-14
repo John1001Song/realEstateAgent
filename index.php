@@ -21,6 +21,27 @@ switch ($request_uri[0]) {
     case '/support':
         require 'public/support.php';
         break;
+    case '/condo':
+        require 'public/condo.php';
+        break;
+    case '/luxury':
+        require 'public/luxury.php';
+        break;
+    case '/market':
+        require 'public/market.php';
+        break;
+    case '/qualified-property':
+        require 'public/qualified-property.php';
+        break;
+    case '/sold':
+        require 'public/sold.php';
+        break;
+    case '/tools':
+        require 'public/tools.php';
+        break;
+    case '/townhouse':
+        require 'public/townhouse.php';
+        break;
     case '/send-email':
         require 'process/send-email-proc.php';
         break;
