@@ -5,11 +5,15 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <link href="css/style.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" type="text/css" href="css/coin-slider.css" />
+<<<<<<< HEAD
 <!--    <script type="text/javascript" src="js/cufon-yui.js"></script>-->
     <script type="text/javascript" src="js/droid_sans_400-droid_sans_700.font.js"></script>
     <script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
     <script type="text/javascript" src="js/coin-slider.min.js"></script>
+=======
+    <link rel="stylesheet" type="text/css" href="css/element-ui.css" />
+>>>>>>> master
 </head>
 <body>
 <div class="main">
@@ -29,6 +33,7 @@
             <div class="clr"></div>
             <div class="menu_nav">
                 <ul>
+<<<<<<< HEAD
                     <li><a href="index.php"><span>主页</span></a></li>
                     <li><a href="qualifiedProperty.php"><span>优质楼盘</span></a></li>
                     <li><a href="condo.php"><span>公寓</span></a></li>
@@ -39,6 +44,18 @@
                     <li><a href="market.php"><span>市场走向</span></a></li>
                     <li><a href="tools.php"><span>买卖小助手</span></a></li>
                     <li><a href="contact.php"><span>联系我们</span></a></li>
+=======
+                    <li><a href="/"><span>主页</span></a></li>
+                    <li><a href="/qualified-property"><span>优质楼盘</span></a></li>
+                    <li><a href="/condo"><span>公寓</span></a></li>
+                    <li><a href="/townhouse"><span>独栋联排</span></a></li>
+                    <li><a href="/luxury"><span>豪宅</span></a></li>
+                    <li><a href="/sold"><span>已售楼盘</span></a></li>
+                    <li><a href="/blog"><span>客户反馈</span></a></li>
+                    <li><a href="/market"><span>市场走向</span></a></li>
+                    <li><a href="/tools"><span>买卖小助手</span></a></li>
+                    <li><a href="/contact"><span>联系我们</span></a></li>
+>>>>>>> master
                 </ul>
             </div>
             <div class="clr"></div>
