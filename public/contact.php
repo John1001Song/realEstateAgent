@@ -65,22 +65,22 @@
                     if(valid){
                         this.sendLoading=true;
                         $.post('/send-email', this.form)
-                            .done(res=>{
+                            .done(()=>{
                                 setTimeout(()=>{
-                                    this.$refs['form'].resetFields();
                                     this.sendLoading=false;
                                     this.$notify({
-                                        title: 'Thank you '+res.data.name,
+                                        title: 'Thank you '+this.form.name,
                                         message: 'We will contact you shortly',
                                         type: 'success'
                                     });
+                                    this.$refs['form'].resetFields();
                                 }, 2000);
                             })
                             .fail(()=>{
                                 this.sendLoading=false;
                                 this.$notify({
                                     title: 'Ops... we are sorry',
-                                    message: 'Something went wrong while processing your request',
+                                    message: 'Something went wrong while processing your request.',
                                     type: 'error'
                                 });
                             });

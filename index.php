@@ -1,9 +1,6 @@
 <?php
 $request_uri = explode('?', $_SERVER['REQUEST_URI'], 2);
-if(isset($_SERVER['HTTP_X_REQUESTED_WITH']) && !empty($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) == 'xmlhttprequest')
-{
-    header('Content-Type: application/json');
-}
+
 // Routes
 switch ($request_uri[0]) {
     case '/':
