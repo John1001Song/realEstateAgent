@@ -27,7 +27,6 @@
         <div style="clear:both;"></div>
     </div>
 </div>
-</div>
 <script type="text/javascript" src="js/cufon-yui.js"></script>
 <script type="text/javascript" src="js/droid_sans_400-droid_sans_700.font.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -38,5 +37,3 @@
 <script type="text/javascript" src="js/vendor/vue.js"></script>
 <script type="text/javascript" src="js/vendor/element-ui.js"></script>
 <script type="text/javascript" src="js/vendor/element-en.js"></script>
-</body>
-</html>
