@@ -15,7 +15,8 @@
             </p>
         </div>
         <div class="col c3">
-            <span><img src="images/agentPhoto.jpeg" width="60" height="80"/></span>
+            <h2><span>About me</span></h2>
+            <div class="agentPhoto"><img src="images/agentPhoto.jpeg" width="180" height="200"/></div>
         </div>
         <div class="clr"></div>
     </div>
@@ -27,7 +28,6 @@
         <div style="clear:both;"></div>
     </div>
 </div>
-</div>
 <script type="text/javascript" src="js/cufon-yui.js"></script>
 <script type="text/javascript" src="js/droid_sans_400-droid_sans_700.font.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -38,5 +38,3 @@
 <script type="text/javascript" src="js/vendor/vue.js"></script>
 <script type="text/javascript" src="js/vendor/element-ui.js"></script>
 <script type="text/javascript" src="js/vendor/element-en.js"></script>
-</body>
-</html>
