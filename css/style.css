@@ -344,18 +344,23 @@ p.infopost span.date {
 .fbg .col {
 	margin:0;
 	float:left;
+    border-top: 1px solid #ece7e7;
 }
 .fbg .c1 {
-	padding:0 16px 0 0;
-	width:300px;
+/*	padding:0 16px 0 0;*/
+	width:350px;
 }
 .fbg .c2 {
-	padding:0 36px 0 0px;
-	width:280px;
+/*	padding:0 36px 0 0px;*/
+	width:290px;
 }
 .fbg .c3 {
-	padding:40px 36px 50px 0px;
-	width:274px;
+/*	padding:40px 36px 50px 0px;*/
+/*    float: right;*/
+	width:280px;
+}
+.fbg .agentPhoto {
+    right: 0px;
 }
 .fbg .fbg_ul {
 	margin:0;

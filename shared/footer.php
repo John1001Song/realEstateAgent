@@ -15,7 +15,8 @@
             </p>
         </div>
         <div class="col c3">
-            <span><img src="images/agentPhoto.jpeg" width="60" height="80"/></span>
+            <h2><span>About me</span></h2>
+            <div class="agentPhoto"><img src="images/agentPhoto.jpeg" width="180" height="200"/></div>
         </div>
         <div class="clr"></div>
     </div>
