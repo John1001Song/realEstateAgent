@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <?php include 'shared/header.php';?>
   <div class="content">
     <div class="content_resize">
@@ -59,6 +60,8 @@
   </div>
 <?php include 'shared/footer.php';?>
 =======
+=======
+>>>>>>> master
 <?php
 $request_uri = explode('?', $_SERVER['REQUEST_URI'], 2);
 
@@ -107,5 +110,9 @@ switch ($request_uri[0]) {
         header('HTTP/1.0 404 Not Found');
         require 'public/error.php';
         break;
+<<<<<<< HEAD
+}
+>>>>>>> master
+=======
 }
 >>>>>>> master
