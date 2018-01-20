@@ -67,7 +67,7 @@ new Vue({
         let n = this.term * 12;
         let i = (this.interestRate / 100) / 12;
         let d = (((1 + i)**n) - 1) / (i * (1 + i)**n)
-      return a/d;
+      return (a/d).toFixed(2);
     }
   }
 })
