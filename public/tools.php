@@ -1,6 +1,4 @@
 <?php include 'shared/header.php';?>
-<script src="https://unpkg.com/vue/dist/vue.js"></script>
-<script src="https://cdn.rawgit.com/chrisvfritz/5f0a639590d6e648933416f90ba7ae4e/raw/974aa47f8f9c5361c5233bd56be37db8ed765a09/currency-validator.js"></script>
 
   <div class="content">
     <div class="content_resize">
@@ -32,24 +30,16 @@
                 </el-form>
                 
                 <div id="app">
-                    <currency-input 
-                        label="房产价格" 
-                        v-model="price"
-                    ></currency-input>
-                      <currency-input 
-                        label="首付" 
-                        v-model="downPayment"
-                      ></currency-input>
-                      <currency-input 
-                        label="贷款年限" 
-                        v-model="term"
-                      ></currency-input>
-                      <currency-input 
-                        label="贷款利率" 
-                        v-model="interestRate"
-                      ></currency-input>
+                    <input label="房产价格" v-model="price" placeholder="房产价格">
+                    <p>您的房产价格$：{{price}}</p>
+                      <input label="首付" v-model="downPayment" placeholder="首付">
+                    <p>您的首付$：{{downPayment}}</p>
+                      <input label="贷款年限" v-model="term" placeholder="贷款年限">
+                    <p>您的贷款年限：{{term}} 年</p>
+                      <input label="贷款利率" v-model="interestRate" placeholder="贷款利率">
+                    <p>您的预计贷款年利率：{{interestRate}}%</p>
   
-                        <p>月还贷: ${{ total }}</p>
+                    <p>月还贷$: {{ total }}</p>
                 </div>
                 
             </div>
@@ -62,53 +52,6 @@
 <?php include 'shared/footer.php';?>
 
 <script>
-Vue.component('currency-input', {
-  template: '\
-    <div>\
-      <label v-if="label">{{ label }}</label>\
-      $\
-      <input\
-        ref="input"\
-        v-bind:value="value"\
-        v-on:input="updateValue($event.target.value)"\
-        v-on:focus="selectAll"\
-        v-on:blur="formatValue"\
-      >\
-    </div>\
-  ',
-  props: {
-    value: {
-      type: Number,
-      default: 0
-    },
-    label: {
-      type: String,
-      default: ''
-    }
-  },
-  mounted: function () {
-    this.formatValue()
-  },
-  methods: {
-    updateValue: function (value) {
-      var result = currencyValidator.parse(value, this.value)
-      if (result.warning) {
-        this.$refs.input.value = result.value
-      }
-      this.$emit('input', result.value)
-    },
-    formatValue: function () {
-      this.$refs.input.value = currencyValidator.format(this.value)
-    },
-    selectAll: function (event) {
-      // Workaround for Safari bug
-      // http://stackoverflow.com/questions/1269722/selecting-text-on-focus-using-jquery-not-working-in-safari-and-chrome
-      setTimeout(function () {
-      	event.target.select()
-      }, 0)
-    }
-  }
-})
 
 new Vue({
   el: '#app',
@@ -116,15 +59,15 @@ new Vue({
     price: 0,
     downPayment: 0,
     term: 0,
-    interestRate: 0
+    interestRate: 0,
   },
   computed: {
     total: function () {
-      return (
-        (this.price - this.downPayment) / (  
-        ((1 + this.interestRate)^(this.term*12) - 1) / (this.interestRate * (1 + this.interestRate) ^ (this.term*12))
-      )
-      )
+        let a = this.price - this.downPayment;
+        let n = this.term * 12;
+        let i = (this.interestRate / 100) / 12;
+        let d = (((1 + i)**n) - 1) / (i * (1 + i)**n)
+      return a/d;
     }
   }
 })
