@@ -39,7 +39,7 @@
                       <input label="贷款利率" v-model="interestRate" placeholder="贷款利率">
                     <p>您的预计贷款年利率：{{interestRate}}%</p>
   
-                    <p>月还贷$: {{ total }}</p>
+                    <p>月还贷$: {{ total=='NaN'? 0 : total }}</p>
                 </div>
                 
             </div>
@@ -60,14 +60,16 @@ new Vue({
     downPayment: 0,
     term: 0,
     interestRate: 0,
+//    total: ''
   },
   computed: {
     total: function () {
         let a = this.price - this.downPayment;
         let n = this.term * 12;
         let i = (this.interestRate / 100) / 12;
-        let d = (((1 + i)**n) - 1) / (i * (1 + i)**n)
-      return (a/d).toFixed(2);
+        let d = (((1 + i)**n) - 1) / (i * (1 + i)**n);
+        let result = (a/d).toFixed(2)
+      return result;
     }
   }
 })
