@@ -10,7 +10,8 @@
             <p><span><strong>贷款计算器</strong></span></p>
             <div class="article" id="calculator">
                 <div class="clr"></div>
-                
+            <div class="article" id="calculator">
+                </div>
                 <el-form ref="form" :model="form" label-width="120px" v-loading="sendLoading" :rules="rules">
                     <el-form-item label="房产价格" prop="price">
                         <el-input v-model="form.price"></el-input>
