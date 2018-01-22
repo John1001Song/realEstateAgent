@@ -278,7 +278,8 @@ p.infopost span.date {
 	color:#fff;
 	text-decoration:none;
 	text-align:center;
-	background:#212121;
+/*	background:#212121;*/
+    background: #ff0000;
 }
 .post_content a.rm:hover {
 	text-decoration:underline;
@@ -301,7 +302,7 @@ p.infopost span.date {
 }
 .content p.pages span, .content p.pages a:hover {
 	color:#fff;
-	background:#212121;
+	background:#ff0000;
 }
 .content p.pages a {
 	color:#fff;

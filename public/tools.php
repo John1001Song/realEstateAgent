@@ -12,6 +12,8 @@
                 <div class="clr"></div>
             <div class="article" id="calculator">
                 </div>
+                      <div class="clr"></div>
+
                 <el-form ref="form" :model="form" label-width="120px" v-loading="sendLoading" :rules="rules">
                     <el-form-item label="房产价格" prop="price">
                         <el-input v-model="form.price"></el-input>
