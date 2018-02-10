@@ -504,3 +504,24 @@ ol li .send {
 a {
 	outline:none;
 }
+.property-photo-list img{
+    float: left;
+    padding: 0 20px 20px 0;
+    height: 30%;
+    width: 30%;
+}
+.property-in-list{
+    height: 100%;
+    width: 100%;
+}
+.property-features-list{
+/*    display: inline-block;*/
+}
+.qualified-property-list{
+    height: 100%;
+    width: 100%;
+}
+.property-price-list property-address-list{
+    display:inline;
+    float:left;
+}
