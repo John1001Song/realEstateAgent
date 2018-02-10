@@ -12,21 +12,26 @@
                         <img src="images/condo_ten_york.jpg">
                     </div>
                     <div class="property-features-list">
-                        <dl class="property-price-list">
-                            <dt><strong>$</strong>1,328,000</dt>
-                        </dl>
-                        <dl class="property-address-list">
-                            <dt><strong>Address</strong>: 10 York St, Toronto, ON M5J 2L9</dt>
-                        </dl>
-                        <dl class="property-space-list">
-                            <dt><strong>Space</strong>: 1305 sq ft</dt>
-                        </dl>
-                        <dl class="property-bedroom-list">
-                            <dt><strong>Bedroom</strong>: 3</dt>
-                        </dl>
-                        <dl class="property-bathroom-list">
-                            <dl><strong>Bathroom</strong>: 2</dl>
-                        </dl>
+                        <div class="features-on-left">
+                            <dl class="property-price-list">
+                                <dt><strong>$</strong>1,328,000</dt>
+                            </dl>
+                            <dl class="property-address-list">
+                                <dt><strong>Address</strong>: 10 York St, Toronto, ON M5J 2L9</dt>
+                            </dl>
+                        </div>
+                        <div class="feature-on-right">
+                            <dl class="property-space-list">
+                                <dt><strong>Space</strong>: 1305 sq ft</dt>
+                            </dl>
+                            <dl class="property-bedroom-list">
+                                <dt><strong>Bedroom</strong>: 3</dt>
+                            </dl>
+                            <dl class="property-bathroom-list">
+                                <dl><strong>Bathroom</strong>: 2</dl>
+                            </dl>
+                        </div>
+                        <br style="clear:both;">
                     </div>
                     <div class="property-list-description">
                         <p>TEN YORK 位于多伦多市中心，频临安大略湖的地标性建筑，由著名建筑商 TRIDEL和多伦多市政府打造，公寓坐落于多伦多市中心湖滨的中央地带, 位于Harbour/York交界处, 最佳的地段, 最好的建筑商。无论是自住/投资都是AAA地段.，极具增值潜力。大楼共75层， 774 个单元。<br/>
