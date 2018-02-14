@@ -3,20 +3,15 @@
     <div class="content_resize">
       <div class="mainbar">
         <div class="article">
-          <h2><span>公寓</span></h2>
+          <h2><span>Condo</span></h2>
           <div class="clr"></div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <strong>Suspendisse nulla ligula, blandit ultricies aliquet ac, lobortis in massa. Nunc dolor sem, tincidunt vitae viverra in, egestas sed lacus.</strong> Etiam in ullamcorper felis. Nulla cursus feugiat leo, ut dictum metus semper a. Vivamus euismod, arcu gravida sollicitudin vestibulum, quam sem tempus quam, quis ullamcorper erat nunc in massa. Donec aliquet ante non diam sollicitudin quis auctor velit sodales. Morbi neque est, posuere at fringilla non, mollis nec nibh. Sed commodo tortor nec sem tincidunt mattis. Nam convallis aliquam nibh eu luctus. Nunc vel tincidunt lacus. Suspendisse sit amet pulvinar ante.</p>
-          <p>Phasellus diam justo, laoreet vel vulputate eu, congue vel est. Maecenas eros libero, sollicitudin a vulputate fermentum, ultrices vel lacus. Nam in metus non augue fermentum consequat ultrices ac enim. Integer aliquam urna non diam aliquam eget hendrerit sem molestie.</p>
-          <p><strong>Lorem ipsum dolor sit amet</strong></p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eget bibendum tellus. Nunc vel imperdiet tellus. Mauris ornare aliquam urna, accumsan bibendum eros auctor ac.</p>
-          <ul class="sb_menu">
-            <li><a href="#"><strong>Lorem ipsum</strong></a></li>
-            <li><a href="#"><strong>Lorem ipsum</strong></a></li>
-            <li><a href="#"><strong>Lorem ipsum</strong></a></li>
-            <li><a href="#"><strong>Lorem ipsum</strong></a></li>
-            <li><a href="#"><strong>Lorem ipsum</strong></a></li>
-            <li><a href="#"><strong>Lorem ipsum</strong></a></li>
-          </ul>
+            <p>Condo info here:</p>
+          <p>TEN YORK 位于多伦多市中心，频临安大略湖的地标性建筑，由著名建筑商 TRIDEL和多伦多市政府打造，公寓坐落于多伦多市中心湖滨的中央地带, 位于Harbour/York交界处, 最佳的地段, 最好的建筑商。无论是自住/投资都是AAA地段.，极具增值潜力。大楼共75层， 774 个单元。<br/>
+              豪华装修：9 尺平滑楼顶，高密度工程复合地板，大理石台面，镶入式电器<br/>
+              建筑设计: Wallman Architects<br/>
+              室内设计: II BY IV Design Associates<br/>
+              此单元是在32层的，三房三卫，明亮通透，饱览湖景和市区景观，举步联合地铁站，市中心金融街，湖滨，地下商城，冰球名人馆，BCE购物广场，Sony剧院，Rogers Center, CN Tower，水族馆，加航中心, 多伦多会议中心，地铁，高速等。
+            </p>
         </div>
       </div>
         <?php include 'shared/sidebar.php';?>
